@@ -11,6 +11,7 @@ import (
 	"strings"
 )
 
+// Round to 1 decimal place, 0.05 rounds up to 0.1, 0.04 rounds down to 0.0
 func round(x float64) float64 {
 	return math.Floor((x+0.05)*10) / 10
 }
