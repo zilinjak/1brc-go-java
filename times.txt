@@ -1,0 +1,4 @@
+Baseline: 
+./calculate_average_baseline.sh  0.12s user 0.02s system 160% cpu 0.091 total
+Go: 
+go run 1brc.go  0.06s user 0.08s system 300% cpu 0.048 total
